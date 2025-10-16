@@ -5,7 +5,7 @@ const port = 3000;
 // usiamo il middleware static di express per file statici
 app.use(express.static('public'));
 
-// importiamo modulo router pizze
+// importiamo modulo router blog
 const router = require("./routers/posts");
 
 // impostiamo la rotta di index

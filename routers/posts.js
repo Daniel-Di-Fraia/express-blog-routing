@@ -4,7 +4,6 @@ const express = require("express");
 // settiamo il router
 const router = express.Router();
 
-// Rotte di CRUD sulla risorsa pizze
 // index
 router.get('/', function (req, res) {
     res.send('Lista dei post');
